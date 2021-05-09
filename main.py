@@ -267,7 +267,7 @@ def door():
 
 def forward_jail():
     print(
-        "You reach the end of the empty hallway and turn to find a room with the keys to all fo the cells in the jail. Do you go back and release your cellmates?"
+        "You reach the end of the empty hallway and turn to find a room with the keys to all of the cells in the jail. Do you go back and release your cellmates?"
     )
     choice = input(">>> ")
     branch(
@@ -287,7 +287,7 @@ def ditch_cellmates():
     time.sleep(1)
     print("A: go left\nB: go right")
     choice = input(">>> ")
-    rand = random.randInt(0, 1)
+    rand = random.randint(0, 1)
     if rand == 0:
         choice = "a"
     else:
